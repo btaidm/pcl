@@ -1338,7 +1338,8 @@ main (int argc, char* argv[])
         }
         else
         {
-            capture.reset( new pcl::OpenNIGrabber() );
+            std::cout << "Please Spciefy a file" << std::endl;
+            //capture.reset( new pcl::OpenNIGrabber() );
 
             //capture.reset( new pcl::ONIGrabber("d:/onis/20111013-224932.oni", true, true) );
             //capture.reset( new pcl::ONIGrabber("d:/onis/reg20111229-180846.oni, true, true) );
